@@ -15,6 +15,27 @@ order: 5
             },
             "created": "2023-05-03T12:17:13.078Z",
             "modified": "2023-05-03T12:17:16.091Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "forc\u00e9 de s'absenter quelque temps",
+            "purpose": "supplementing",
+            "creator": {
+                "id": "nodage",
+                "name": "nodage"
+            },
+            "created": "2023-05-03T12:22:52.989Z",
+            "modified": "2023-05-03T12:23:04.964Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "line text",
+            "creator": {
+                "id": "nodage",
+                "name": "nodage"
+            },
+            "created": "2023-05-03T12:23:08.204Z"
         }
     ],
     "target": {
