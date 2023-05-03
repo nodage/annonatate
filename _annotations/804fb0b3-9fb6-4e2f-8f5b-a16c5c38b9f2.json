@@ -3,43 +3,54 @@ canvas: "https://nodage.github.io/annonatate/img/derivatives/iiif/Cartaejemplo/c
 order: 18
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "stamp",
-            "purpose": "classifying",
+            "created": "2023-05-03T12:32:19.136Z",
             "creator": {
                 "id": "nodage",
                 "name": "nodage"
             },
-            "created": "2023-05-03T12:32:19.136Z",
-            "modified": "2023-05-03T12:32:25.289Z"
+            "modified": "2023-05-03T12:32:25.289Z",
+            "purpose": "classifying",
+            "type": "TextualBody",
+            "value": "stamp"
+        },
+        {
+            "created": "2023-05-03T12:32:28.699Z",
+            "creator": {
+                "id": "nodage",
+                "name": "nodage"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "stamp"
         },
         {
             "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "stamp",
+            "value": "GOUVERNEMENT G\u00c9N\u00c9RAL DE L'ALG\u00c9RIE",
+            "purpose": "supplementing",
             "creator": {
                 "id": "nodage",
                 "name": "nodage"
             },
-            "created": "2023-05-03T12:32:28.699Z"
+            "created": "2023-05-03T12:47:42.579Z",
+            "modified": "2023-05-03T12:47:54.274Z"
         }
     ],
+    "id": "804fb0b3-9fb6-4e2f-8f5b-a16c5c38b9f2.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://nodage.github.io/annonatate/img/derivatives/iiif/Cartaejemplo/canvas/Cartaejemplo-1",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=85.17501831054688,90.9854507446289,422.3930969238281,40.80561065673828"
-        },
         "dcterms:isPartOf": {
             "id": "https://nodage.github.io/annonatate/img/derivatives/iiif/Cartaejemplo/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=85.17501831054688,90.9854507446289,422.3930969238281,40.80561065673828"
+        },
+        "source": "https://nodage.github.io/annonatate/img/derivatives/iiif/Cartaejemplo/canvas/Cartaejemplo-1"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "804fb0b3-9fb6-4e2f-8f5b-a16c5c38b9f2.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
