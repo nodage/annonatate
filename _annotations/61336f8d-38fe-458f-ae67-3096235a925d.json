@@ -1,0 +1,45 @@
+---
+canvas: "https://nodage.github.io/annonatate/img/derivatives/iiif/Cartaejemplo/canvas/Cartaejemplo-1"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "stamp",
+            "purpose": "tagging",
+            "creator": {
+                "id": "nodage",
+                "name": "nodage"
+            },
+            "created": "2023-05-03T11:07:29.784Z",
+            "modified": "2023-05-03T11:07:42.095Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "MI AKAD\u00c9MIA K\u00d6NYV-I\u00c1RA",
+            "purpose": "supplementing",
+            "creator": {
+                "id": "nodage",
+                "name": "nodage"
+            },
+            "created": "2023-05-03T11:10:23.873Z",
+            "modified": "2023-05-03T11:11:08.554Z"
+        }
+    ],
+    "target": {
+        "source": "https://nodage.github.io/annonatate/img/derivatives/iiif/Cartaejemplo/canvas/Cartaejemplo-1",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><ellipse cx=\"553.6121826171875\" cy=\"167.08237075805664\" rx=\"57.07269287109375\" ry=\"49.6284294128418\"></ellipse></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://nodage.github.io/annonatate/img/derivatives/iiif/Cartaejemplo/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "61336f8d-38fe-458f-ae67-3096235a925d.json",
+    "motivation": "commenting"
+}
