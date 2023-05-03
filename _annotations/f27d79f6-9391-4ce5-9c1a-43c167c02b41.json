@@ -3,33 +3,54 @@ canvas: "https://nodage.github.io/annonatate/img/derivatives/iiif/Cartaejemplo/c
 order: 11
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "line",
-            "purpose": "classifying",
+            "created": "2023-05-03T11:26:41.391Z",
             "creator": {
                 "id": "nodage",
                 "name": "nodage"
             },
-            "created": "2023-05-03T11:26:41.391Z",
-            "modified": "2023-05-03T11:26:45.458Z"
+            "modified": "2023-05-03T11:26:45.458Z",
+            "purpose": "classifying",
+            "type": "TextualBody",
+            "value": "line"
+        },
+        {
+            "type": "TextualBody",
+            "value": "velles feuilles; deux autres vous",
+            "purpose": "supplementing",
+            "creator": {
+                "id": "nodage",
+                "name": "nodage"
+            },
+            "created": "2023-05-03T12:14:25.415Z",
+            "modified": "2023-05-03T12:14:47.404Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "line text",
+            "creator": {
+                "id": "nodage",
+                "name": "nodage"
+            },
+            "created": "2023-05-03T12:14:52.016Z"
         }
     ],
+    "id": "f27d79f6-9391-4ce5-9c1a-43c167c02b41.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://nodage.github.io/annonatate/img/derivatives/iiif/Cartaejemplo/canvas/Cartaejemplo-1",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=92.95620727539062,664.0447998046875,526.9190979003906,64.94580078125"
-        },
         "dcterms:isPartOf": {
             "id": "https://nodage.github.io/annonatate/img/derivatives/iiif/Cartaejemplo/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=92.95620727539062,664.0447998046875,526.9190979003906,64.94580078125"
+        },
+        "source": "https://nodage.github.io/annonatate/img/derivatives/iiif/Cartaejemplo/canvas/Cartaejemplo-1"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "f27d79f6-9391-4ce5-9c1a-43c167c02b41.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
