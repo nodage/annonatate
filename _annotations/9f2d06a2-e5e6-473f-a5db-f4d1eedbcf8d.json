@@ -3,33 +3,54 @@ canvas: "https://nodage.github.io/annonatate/img/derivatives/iiif/Cartaejemplo/c
 order: 12
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "line",
-            "purpose": "classifying",
+            "created": "2023-05-03T11:27:55.951Z",
             "creator": {
                 "id": "nodage",
                 "name": "nodage"
             },
-            "created": "2023-05-03T11:27:55.951Z",
-            "modified": "2023-05-03T11:27:58.587Z"
+            "modified": "2023-05-03T11:27:58.587Z",
+            "purpose": "classifying",
+            "type": "TextualBody",
+            "value": "line"
+        },
+        {
+            "type": "TextualBody",
+            "value": "parviendront dans quelques",
+            "purpose": "supplementing",
+            "creator": {
+                "id": "nodage",
+                "name": "nodage"
+            },
+            "created": "2023-05-03T12:15:03.763Z",
+            "modified": "2023-05-03T12:15:15.118Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "line text",
+            "creator": {
+                "id": "nodage",
+                "name": "nodage"
+            },
+            "created": "2023-05-03T12:15:20.600Z"
         }
     ],
+    "id": "9f2d06a2-e5e6-473f-a5db-f4d1eedbcf8d.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://nodage.github.io/annonatate/img/derivatives/iiif/Cartaejemplo/canvas/Cartaejemplo-1",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=90.50540161132812,730.2160034179688,512.2144470214844,62.49505615234375"
-        },
         "dcterms:isPartOf": {
             "id": "https://nodage.github.io/annonatate/img/derivatives/iiif/Cartaejemplo/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=90.50540161132812,730.2160034179688,512.2144470214844,62.49505615234375"
+        },
+        "source": "https://nodage.github.io/annonatate/img/derivatives/iiif/Cartaejemplo/canvas/Cartaejemplo-1"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "9f2d06a2-e5e6-473f-a5db-f4d1eedbcf8d.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
