@@ -1,0 +1,48 @@
+---
+canvas: "https://nodage.github.io/annonatate/img/derivatives/iiif/Cartaejemplo/canvas/Cartaejemplo-2"
+order: 15
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "date annotation",
+            "purpose": "classifying",
+            "creator": {
+                "id": "nodage",
+                "name": "nodage"
+            },
+            "created": "2023-05-03T12:27:28.346Z",
+            "modified": "2023-05-03T12:28:11.133Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "pencil annotation",
+            "purpose": "tagging",
+            "creator": {
+                "id": "nodage",
+                "name": "nodage"
+            },
+            "created": "2023-05-03T12:27:45.368Z",
+            "modified": "2023-05-03T12:27:48.733Z"
+        }
+    ],
+    "target": {
+        "source": "https://nodage.github.io/annonatate/img/derivatives/iiif/Cartaejemplo/canvas/Cartaejemplo-2",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"33.44693374633789,919.3643188476562 41.93178939819336,978.75830078125 221.7257160648897,953.0734508152578 213.24086041303423,893.6794688816641\" /></svg>"
+        },
+        "renderedVia": {
+            "name": "annotorious-tilted-box"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://nodage.github.io/annonatate/img/derivatives/iiif/Cartaejemplo/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "34e93354-a2bf-4cea-baec-2d860a7c7d59.json",
+    "motivation": "commenting"
+}
