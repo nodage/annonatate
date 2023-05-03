@@ -1,0 +1,46 @@
+---
+canvas: "https://nodage.github.io/annonatate/img/derivatives/iiif/Cartaejemplo/canvas/Cartaejemplo-1"
+order: 16
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "pencil annotation",
+            "purpose": "classifying",
+            "creator": {
+                "id": "nodage",
+                "name": "nodage"
+            },
+            "created": "2023-05-03T12:30:50.001Z",
+            "modified": "2023-05-03T12:30:56.358Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "pencil annotation",
+            "purpose": "tagging",
+            "creator": {
+                "id": "nodage",
+                "name": "nodage"
+            },
+            "created": "2023-05-03T12:30:59.346Z",
+            "modified": "2023-05-03T12:31:03.893Z"
+        }
+    ],
+    "target": {
+        "source": "https://nodage.github.io/annonatate/img/derivatives/iiif/Cartaejemplo/canvas/Cartaejemplo-1",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=30.032306671142578,29.225637435913086,86.02260971069336,39.70273780822754"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://nodage.github.io/annonatate/img/derivatives/iiif/Cartaejemplo/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "005b3ba8-d624-44c9-9c10-81cdcc8389f1.json",
+    "motivation": "commenting"
+}
