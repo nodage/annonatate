@@ -1,0 +1,35 @@
+---
+canvas: "https://nodage.github.io/annonatate/img/derivatives/iiif/Cartaejemplo/canvas/Cartaejemplo-1"
+order: 5
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "line",
+            "purpose": "classifying",
+            "creator": {
+                "id": "nodage",
+                "name": "nodage"
+            },
+            "created": "2023-05-03T11:18:34.258Z",
+            "modified": "2023-05-03T11:18:36.786Z"
+        }
+    ],
+    "target": {
+        "source": "https://nodage.github.io/annonatate/img/derivatives/iiif/Cartaejemplo/canvas/Cartaejemplo-1",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=95.1007080078125,318.1733703613281,547.0155639648438,48.525604248046875"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://nodage.github.io/annonatate/img/derivatives/iiif/Cartaejemplo/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "fe2c3548-72e4-402a-9711-47733e3e922d.json",
+    "motivation": "commenting"
+}
