@@ -15,6 +15,28 @@ order: 3
             },
             "created": "2023-05-03T11:17:38.050Z",
             "modified": "2023-05-03T11:17:47.780Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "adress",
+            "purpose": "tagging",
+            "creator": {
+                "id": "nodage",
+                "name": "nodage"
+            },
+            "created": "2023-05-03T11:19:47.744Z",
+            "modified": "2023-05-03T11:19:48.911Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Cher Monsieur,",
+            "purpose": "commenting",
+            "creator": {
+                "id": "nodage",
+                "name": "nodage"
+            },
+            "created": "2023-05-03T11:20:01.415Z",
+            "modified": "2023-05-03T11:20:11.136Z"
         }
     ],
     "target": {
