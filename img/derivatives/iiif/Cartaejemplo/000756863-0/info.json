@@ -1,0 +1,66 @@
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "https://nodage.github.io/annonatate/img/derivatives/iiif/Cartaejemplo//000756863-0",
+  "height": 1024,
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "formats": [
+        "jpg"
+      ],
+      "qualities": [
+        "default"
+      ]
+    }
+  ],
+  "protocol": "http://iiif.io/api/image",
+  "sizes": [
+    {
+      "height": 256,
+      "width": 173
+    },
+    {
+      "height": 128,
+      "width": 87
+    },
+    {
+      "height": 64,
+      "width": 43
+    },
+    {
+      "height": 32,
+      "width": 22
+    },
+    {
+      "height": 16,
+      "width": 11
+    },
+    {
+      "height": 8,
+      "width": 5
+    },
+    {
+      "height": 4,
+      "width": 3
+    },
+    {
+      "height": 2,
+      "width": 1
+    },
+    {
+      "height": 1,
+      "width": 1
+    }
+  ],
+  "tiles": [
+    {
+      "height": 512,
+      "scaleFactors": [
+        1,
+        2
+      ],
+      "width": 512
+    }
+  ],
+  "width": 692
+}
