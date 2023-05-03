@@ -15,6 +15,28 @@ order: 6
             },
             "created": "2023-05-03T11:18:52.728Z",
             "modified": "2023-05-03T11:18:55.684Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "manuscrit d'Ibn Toumert. Je",
+            "purpose": "supplementing",
+            "creator": {
+                "id": "nodage",
+                "name": "nodage"
+            },
+            "created": "2023-05-03T11:21:17.081Z",
+            "modified": "2023-05-03T11:21:28.998Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "line text",
+            "purpose": "tagging",
+            "creator": {
+                "id": "nodage",
+                "name": "nodage"
+            },
+            "created": "2023-05-03T11:21:33.762Z",
+            "modified": "2023-05-03T11:21:34.929Z"
         }
     ],
     "target": {
