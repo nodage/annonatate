@@ -15,6 +15,27 @@ order: 7
             },
             "created": "2023-05-03T12:17:42.881Z",
             "modified": "2023-05-03T12:17:47.529Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "une nouvelle cause de retard.",
+            "purpose": "supplementing",
+            "creator": {
+                "id": "nodage",
+                "name": "nodage"
+            },
+            "created": "2023-05-03T12:23:58.104Z",
+            "modified": "2023-05-03T12:24:09.430Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "line text",
+            "creator": {
+                "id": "nodage",
+                "name": "nodage"
+            },
+            "created": "2023-05-03T12:24:13.497Z"
         }
     ],
     "target": {
