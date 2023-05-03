@@ -18,14 +18,14 @@ order: 6
         },
         {
             "type": "TextualBody",
-            "value": "d\u00e8s qu'il sera r\u00e9tabli",
+            "value": "d\u00e8s qu'il sera r\u00e9tabli, ce qui sera",
             "purpose": "supplementing",
             "creator": {
                 "id": "nodage",
                 "name": "nodage"
             },
             "created": "2023-05-03T12:23:12.666Z",
-            "modified": "2023-05-03T12:23:22.274Z"
+            "modified": "2023-05-03T12:23:50.702Z"
         },
         {
             "type": "TextualBody",
