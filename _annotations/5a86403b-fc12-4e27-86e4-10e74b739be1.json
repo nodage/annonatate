@@ -37,6 +37,17 @@ order: 17
             },
             "created": "2023-05-03T12:45:02.571Z",
             "modified": "2023-05-03T12:45:33.659Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "MAGYAR TUDOM\u00c1NYOS AKAD\u00c9MIA K\u00d6NYVT\u00c1RA",
+            "purpose": "editing",
+            "creator": {
+                "id": "nodage",
+                "name": "nodage"
+            },
+            "created": "2023-05-03T12:46:02.130Z",
+            "modified": "2023-05-03T12:46:09.292Z"
         }
     ],
     "id": "5a86403b-fc12-4e27-86e4-10e74b739be1.json",
