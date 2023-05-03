@@ -3,33 +3,55 @@ canvas: "https://nodage.github.io/annonatate/img/derivatives/iiif/Cartaejemplo/c
 order: 10
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "line",
-            "purpose": "classifying",
+            "created": "2023-05-03T11:26:23.416Z",
             "creator": {
                 "id": "nodage",
                 "name": "nodage"
             },
-            "created": "2023-05-03T11:26:23.416Z",
-            "modified": "2023-05-03T11:26:26.162Z"
+            "modified": "2023-05-03T11:26:26.162Z",
+            "purpose": "classifying",
+            "type": "TextualBody",
+            "value": "line"
+        },
+        {
+            "type": "TextualBody",
+            "value": "par ce m\u00eame courrier deux nou-",
+            "purpose": "supplementing",
+            "creator": {
+                "id": "nodage",
+                "name": "nodage"
+            },
+            "created": "2023-05-03T12:14:02.420Z",
+            "modified": "2023-05-03T12:14:14.363Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "line text",
+            "purpose": "tagging",
+            "creator": {
+                "id": "nodage",
+                "name": "nodage"
+            },
+            "created": "2023-05-03T12:14:16.677Z",
+            "modified": "2023-05-03T12:14:18.223Z"
         }
     ],
+    "id": "90202992-2036-4865-acf1-f1ae195a46a6.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://nodage.github.io/annonatate/img/derivatives/iiif/Cartaejemplo/canvas/Cartaejemplo-1",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=88.66731262207031,598.4862060546875,559.3921356201172,65.55859375"
-        },
         "dcterms:isPartOf": {
             "id": "https://nodage.github.io/annonatate/img/derivatives/iiif/Cartaejemplo/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=88.66731262207031,598.4862060546875,559.3921356201172,65.55859375"
+        },
+        "source": "https://nodage.github.io/annonatate/img/derivatives/iiif/Cartaejemplo/canvas/Cartaejemplo-1"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "90202992-2036-4865-acf1-f1ae195a46a6.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
