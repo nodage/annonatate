@@ -3,43 +3,54 @@ canvas: "https://nodage.github.io/annonatate/img/derivatives/iiif/Cartaejemplo/c
 order: 17
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "stamp",
-            "purpose": "classifying",
+            "created": "2023-05-03T12:33:36.468Z",
             "creator": {
                 "id": "nodage",
                 "name": "nodage"
             },
-            "created": "2023-05-03T12:33:36.468Z",
-            "modified": "2023-05-03T12:33:40.354Z"
+            "modified": "2023-05-03T12:33:40.354Z",
+            "purpose": "classifying",
+            "type": "TextualBody",
+            "value": "stamp"
+        },
+        {
+            "created": "2023-05-03T12:33:41.988Z",
+            "creator": {
+                "id": "nodage",
+                "name": "nodage"
+            },
+            "modified": "2023-05-03T12:33:42.620Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "stamp"
         },
         {
             "type": "TextualBody",
-            "value": "stamp",
-            "purpose": "tagging",
+            "value": "M T AKAD\u00c9MIA\nK\u00d6NYV-\nT\u00c1RA",
+            "purpose": "supplementing",
             "creator": {
                 "id": "nodage",
                 "name": "nodage"
             },
-            "created": "2023-05-03T12:33:41.988Z",
-            "modified": "2023-05-03T12:33:42.620Z"
+            "created": "2023-05-03T12:45:02.571Z",
+            "modified": "2023-05-03T12:45:33.659Z"
         }
     ],
+    "id": "5a86403b-fc12-4e27-86e4-10e74b739be1.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://nodage.github.io/annonatate/img/derivatives/iiif/Cartaejemplo/canvas/Cartaejemplo-1",
+        "dcterms:isPartOf": {
+            "id": "https://nodage.github.io/annonatate/img/derivatives/iiif/Cartaejemplo/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><ellipse cx=\"554.9907836914062\" cy=\"165.97952270507812\" rx=\"56.7969970703125\" ry=\"44.11415100097656\"></ellipse></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://nodage.github.io/annonatate/img/derivatives/iiif/Cartaejemplo/manifest.json",
-            "type": "Manifest"
-        }
+        "source": "https://nodage.github.io/annonatate/img/derivatives/iiif/Cartaejemplo/canvas/Cartaejemplo-1"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "5a86403b-fc12-4e27-86e4-10e74b739be1.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
